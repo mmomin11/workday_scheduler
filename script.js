@@ -28,7 +28,11 @@ $("#row4 .description").val(localStorage.getItem("row4"));
 $("#row5 .description").val(localStorage.getItem("row5"));
 
 
-
 // create function to assign whether the block of time is current, past, or future. 
+function trackTime() {
 
+    var currentHour = moment().hour();
+    
+};
+ trackTime();
 })
