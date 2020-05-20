@@ -16,9 +16,18 @@ $(".saveBtn").on("click", function () {
 })
 
 // set items in local storage at save. 
+$("#row8 .description").val(localStorage.getItem("row8"));
+$("#row9 .description").val(localStorage.getItem("row9"));
+$("#row10 .description").val(localStorage.getItem("row10"));
+$("#row11 .description").val(localStorage.getItem("row11"));
+$("#row12 .description").val(localStorage.getItem("row12"));
+$("#row1 .description").val(localStorage.getItem("row1"));
+$("#row2 .description").val(localStorage.getItem("row2"));
+$("#row3 .description").val(localStorage.getItem("row3"));
+$("#row4 .description").val(localStorage.getItem("row4"));
+$("#row5 .description").val(localStorage.getItem("row5"));
 
 
-// load the local stoarge items at refresh for the items saved in each row of time slot. 
 
 // create function to assign whether the block of time is current, past, or future. 
 
