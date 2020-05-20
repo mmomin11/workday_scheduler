@@ -23,12 +23,16 @@ p {
     margin-bottom: 10px;
 }
 
+.description {
+    white-space: pre-wrap;
+}
+
 textarea {
     resize: none;
     margin-top: 1px;
 }
 
-.timeref {
+.time {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,12 +44,12 @@ textarea {
     color: white;
   }
   
-  .present {
+.present {
     background-color: #ff6961;
     color: white;
   }
   
-  .future {
+.future {
     background-color: #77dd77;
     color: white;
   }
